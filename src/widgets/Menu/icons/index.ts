@@ -10,6 +10,7 @@ export { default as HomeIcon } from "./Home";
 export { default as IFOIcon } from "./Ifo";
 export { default as InfoIcon } from "./Info";
 export { default as InstagramIcon } from "./Instagram";
+export { default as KickStarter } from "./KickStarter";
 export { default as LanguageIcon } from "./Language";
 export { default as LogoIcon } from "./Logo";
 export { default as LotteryIcon } from "./Lottery";
