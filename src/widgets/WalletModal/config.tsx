@@ -6,6 +6,7 @@ import WalletConnect from "./icons/WalletConnect";
 import BinanceChain from "./icons/BinanceChain";
 import SafePalWallet from "./icons/SafePalWallet";
 import { Config, ConnectorNames } from "./types";
+import { isDesktop } from "react-device-detect";
 
 const connectors: Config[] = [
   {
@@ -17,7 +18,7 @@ const connectors: Config[] = [
   {
     title: "TrustWallet",
     icon: TrustWallet,
-    connectorId: ConnectorNames.Injected,
+    connectorId: isDesktop ? ConnectorNames.WalletConnect :  ConnectorNames.Injected,
     redirectUrl: `https://link.trustwallet.com/open_url?coin_id=20000714&url=https://summitswap.finance/`
   },
   {
