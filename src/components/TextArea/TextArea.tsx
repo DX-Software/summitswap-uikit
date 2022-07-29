@@ -34,7 +34,7 @@ const TextArea = styled.textarea<TextAreaProps>`
   font-size: 16px;
   height: 95px;
   outline: 0;
-  padding: 0 16px;
+  padding: 6px 16px;
   width: 100%;
   
   &::-webkit-inner-spin-button {
