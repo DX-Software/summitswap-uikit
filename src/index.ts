@@ -24,6 +24,7 @@ export * from "./components/Tab";
 export * from "./components/Table";
 export * from "./components/Tag";
 export * from "./components/Text";
+export * from "./components/TextArea";
 export * from "./components/Toggle";
 // Hooks
 export * from "./hooks";
