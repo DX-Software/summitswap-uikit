@@ -43,6 +43,7 @@ export { default as ProgressBunny } from "./Icons/ProgressBunny";
 export { default as Won } from "./Icons/Won";
 export { default as Ticket } from "./Icons/Ticket";
 export { default as TicketRound } from "./Icons/TicketRound";
+export { default as TwitterIcon } from "./Icons/Twitter";
 export { default as TopLogoIcon } from "./Icons/TopLogo";
 export { default as SearchIcon } from "./Icons/Search";
 export { default as ShareIcon } from "./Icons/Share";
