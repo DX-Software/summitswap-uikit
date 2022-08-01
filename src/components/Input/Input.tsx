@@ -68,6 +68,13 @@ const Input = styled.input<InputProps>`
   &:focus:not(:disabled) {
     box-shadow: ${({ theme }) => theme.shadows.focus};
   }
+
+  &::-webkit-calendar-picker-indicator {
+    filter: invert(100%) sepia(1%) saturate(2177%) hue-rotate(118deg) brightness(119%) contrast(97%);
+    &:hover {
+      cursor: pointer;
+    }
+  }
 `;
 
 Input.defaultProps = {
