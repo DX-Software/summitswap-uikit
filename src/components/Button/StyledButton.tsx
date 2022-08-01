@@ -1,7 +1,7 @@
 import styled, { DefaultTheme } from "styled-components";
 import { space, layout, variant } from "styled-system";
 import { scaleVariants, styleVariants } from "./theme";
-import { BaseButtonProps } from "./types";
+import { BaseButtonProps, variants } from "./types";
 
 interface ThemedButtonProps extends BaseButtonProps {
   theme: DefaultTheme;
@@ -58,6 +58,7 @@ const StyledButton = styled.button<BaseButtonProps>`
   opacity: ${getOpacity};
   outline: 0;
   transition: 0.3s;
+  border: ${({ variant, theme }) => (variant === variants.SECONDARY ? `2px solid ${theme.colors.primary}` : "none")};
 
   &:hover:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled):not(:active) {
     opacity: 0.65;
