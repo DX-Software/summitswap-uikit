@@ -75,6 +75,9 @@ const Input = styled.input<InputProps>`
       cursor: pointer;
     }
   }
+  &::-webkit-search-cancel-button {
+    filter: invert(100%) sepia(1%) saturate(2177%) hue-rotate(118deg) brightness(119%) contrast(97%);
+  }
 `;
 
 Input.defaultProps = {
