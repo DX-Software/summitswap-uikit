@@ -2,6 +2,7 @@ import { ReactNode } from "react";
 import { SpaceProps } from "styled-system";
 
 export const variants = {
+  DEFAULT: "default",
   PRIMARY: "primary",
   SECONDARY: "secondary",
   SUCCESS: "success",
