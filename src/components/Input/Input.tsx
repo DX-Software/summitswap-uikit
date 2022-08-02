@@ -76,7 +76,7 @@ const Input = styled.input<InputProps>`
     }
   }
   &::-webkit-search-cancel-button {
-    filter: invert(100%) sepia(1%) saturate(2177%) hue-rotate(118deg) brightness(119%) contrast(97%);
+    filter: grayscale(100%) brightness(119%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
   }
 `;
 
