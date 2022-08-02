@@ -1,4 +1,4 @@
-import React, { ReactNode, cloneElement, isValidElement } from "react";
+import React, { ReactNode, isValidElement } from "react";
 import styled, { DefaultTheme } from "styled-components";
 import { Box, BoxProps } from "../Box";
 import { ChevronDownIcon } from "../Svg";
@@ -128,7 +128,7 @@ const getStartIcon = (startIcon: ReactNode) => {
   if (isValid) {
     return (
       <StartIconWrapper>
-        {cloneElement(startIcon)}  
+        {startIcon}  
       </StartIconWrapper>
     )
   }
