@@ -17,6 +17,7 @@ export * from "./components/Layouts";
 export * from "./components/Link";
 export * from "./components/Progress";
 export * from "./components/Radio";
+export * from "./components/Select";
 export * from "./components/Skeleton";
 export * from "./components/Spinner";
 export * from "./components/Svg";
