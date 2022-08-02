@@ -49,6 +49,7 @@ export { default as TwitterIcon } from "./Icons/Twitter";
 export { default as TopLogoIcon } from "./Icons/TopLogo";
 export { default as SearchIcon } from "./Icons/Search";
 export { default as ShareIcon } from "./Icons/Share";
+export { default as SortIcon } from "./Icons/Sort";
 export { default as SwapVertIcon } from "./Icons/SwapVert";
 export { default as SyncAltIcon } from "./Icons/SyncAlt";
 export { default as WalletIcon } from "./Icons/Wallet";
