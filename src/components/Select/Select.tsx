@@ -58,6 +58,9 @@ const getIconSize = ({ scale = scales.MD }: StyledSelectProps) => {
 
 const SelectWrapper = styled(Box)`
   position: relative;
+  z-index: 1;
+  height: fit-content;
+  width: auto;
 `;
 
 const Select = styled.select<{
