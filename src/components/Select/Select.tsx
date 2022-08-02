@@ -1,17 +1,18 @@
-import React from "react";
+import React, { ReactNode, cloneElement, isValidElement } from "react";
 import styled, { DefaultTheme } from "styled-components";
 import { Box, BoxProps } from "../Box";
 import { ChevronDownIcon } from "../Svg";
-import { SelectProps, scales, Option } from "./types";
+import { SelectProps, scales, Option, Scales } from "./types";
 
-interface StyledSelectProps
-  extends SelectProps {
+interface StyledSelectProps extends SelectProps {
   theme: DefaultTheme;
 }
 
 interface Props extends BoxProps, SelectProps {
   options: Option[];
+  startIcon?: ReactNode;
 }
+
 /**
  * Priority: Warning --> Success
  */
@@ -59,7 +60,12 @@ const SelectWrapper = styled(Box)`
   position: relative;
 `;
 
-const Select = styled.select`
+const Select = styled.select<{
+  scale?: Scales;
+  isSuccess?: boolean;
+  isWarning?: boolean;
+  startIcon?: ReactNode;
+}>`
   background-color: ${({ theme }) => theme.colors.input};
   border: 0;
   border-radius: 16px;
@@ -72,6 +78,7 @@ const Select = styled.select`
   padding: 0 16px;
   width: 100%;
   padding-right: 40px;
+  padding-left: ${({ startIcon }) => (startIcon && "44px")};
 
   -moz-appearance: none; /* Firefox */
   -webkit-appearance: none; /* Safari and Chrome */
@@ -98,7 +105,7 @@ const Select = styled.select`
   }
 `;
 
-const StyledChevronDownIcon = styled(ChevronDownIcon)`
+const StyledChevronDownIcon = styled(ChevronDownIcon)<{ scale: Scales }>`
   width: ${getIconSize};
   position: absolute;
   right: 16px;
@@ -107,21 +114,40 @@ const StyledChevronDownIcon = styled(ChevronDownIcon)`
   pointer-events: none;
 `;
 
+const StartIconWrapper = styled.div`
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+`;
+
+const getStartIcon = (startIcon: ReactNode) => {
+  const isValid = isValidElement(startIcon);
+
+  if (isValid) {
+    return (
+      <StartIconWrapper>
+        {cloneElement(startIcon)}  
+      </StartIconWrapper>
+    )
+  }
+  return null
+}
+
 function SelectComponent({
   scale,
   isSuccess,
   isWarning,
   options,
   onChange,
+  startIcon,
   ...props
 }: Props) {
   return (
     <SelectWrapper {...props}>
-      <Select
-        scale={scale}
-        isSuccess={isSuccess}
-        isWarning={isWarning}
-      >
+      {startIcon && getStartIcon(startIcon)}
+      <Select scale={scale} isSuccess={isSuccess} isWarning={isWarning} startIcon={startIcon}>
         {options.map((option) => {
           return (
             <option key={option.value} value={option.value}>
@@ -130,7 +156,7 @@ function SelectComponent({
           );
         })}
       </Select>
-      <StyledChevronDownIcon scale={scale} />
+      <StyledChevronDownIcon scale={scale || scales.MD} />
     </SelectWrapper>
   );
 }
@@ -141,4 +167,5 @@ SelectComponent.defaultProps = {
   scale: scales.MD,
   isSuccess: false,
   isWarning: false,
+  startIcon: null,
 };
