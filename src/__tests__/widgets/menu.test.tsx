@@ -110,7 +110,7 @@ it("renders correctly", () => {
                   class="sc-fWSCIC jEykQV"
                 >
                   <div
-                    class="sc-fbkhIv crtQhF"
+                    class="sc-fbkhIv gRQARZ"
                   />
                   <div
                     class="sc-dlfnbm isWJdv"
@@ -341,7 +341,7 @@ it("renders correctly", () => {
                     class="sc-fWSCIC jEykQV"
                   >
                     <div
-                      class="sc-fbkhIv crtQhF"
+                      class="sc-fbkhIv gRQARZ"
                     />
                     <div
                       class="sc-dlfnbm isWJdv"
