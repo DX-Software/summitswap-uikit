@@ -45,6 +45,7 @@ export { default as NoProfileAvatarIcon } from "./Icons/NoProfileAvatar";
 export { default as OmniIcon } from "./Icons/Omni";
 export { default as OpenNewIcon } from "./Icons/OpenNew";
 export { default as PancakesIcon } from "./Icons/Pancakes";
+export { default as PairCoinsIcon } from "./Icons/PairCoins";
 export { default as PancakeRoundIcon } from "./Icons/PancakeRound";
 export { default as PeopleIcon } from "./Icons/People";
 export { default as PrizeIcon } from "./Icons/Prize";
