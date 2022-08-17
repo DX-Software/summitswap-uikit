@@ -23,6 +23,7 @@ const ChildTab = styled.li<{ isActive: boolean; index: number }>`
       isActive ? ` ${theme.colors.primary}` : "transparent"};
   > div {
     color: ${({ theme, isActive }) => isActive && theme.colors.primary};
+    font-weight: ${({ isActive }) => isActive && "700"};
   }
   ${({ theme }) => theme.mediaQueries.md} {
     margin-left: ${({ index }) => (index === 0 ? "0" : "16px")};
