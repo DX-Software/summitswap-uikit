@@ -30,6 +30,7 @@ export { default as DetailIcon } from "./Icons/Detail";
 export { default as ErrorIcon } from "./Icons/Error";
 export { default as FacebookIcon } from "./Icons/Facebook";
 export { default as FileIcon } from "./Icons/File";
+export { default as FilterIcon } from "./Icons/Filter";
 export { default as HandCoinIcon } from "./Icons/HandCoin";
 export { default as HelpIcon } from "./Icons/Help";
 export { default as ImageIcon } from "./Icons/Image";
