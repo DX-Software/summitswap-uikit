@@ -1,6 +1,6 @@
 /* eslint-disable react/no-array-index-key */
-import React, { Children, isValidElement, ReactNode } from "react";
-import styled, { DefaultTheme } from "styled-components";
+import React, { Children, isValidElement } from "react";
+import styled from "styled-components";
 import { space } from "styled-system";
 import Box from "../Box/Box";
 import { TabPresaleProps } from "./types";
