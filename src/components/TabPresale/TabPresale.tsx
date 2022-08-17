@@ -12,10 +12,10 @@ const StyledTabPresale = styled(Box)`
   ${space};
 `;
 
-const ChildTab = styled.li<{ isActive: boolean }>`
+const ChildTab = styled.li<{ isActive: boolean; index: number }>`
   min-width: max-content;
   cursor: pointer;
-  margin-left: 12px;
+  margin-left: ${({ index }) => (index === 0 ? "0" : "12px")};
   margin-right: 12px;
   padding-bottom: 5px;
   border-bottom: 5px solid
@@ -25,7 +25,7 @@ const ChildTab = styled.li<{ isActive: boolean }>`
     color: ${({ theme, isActive }) => isActive && theme.colors.primary};
   }
   ${({ theme }) => theme.mediaQueries.md} {
-    margin-left: 16px;
+    margin-left: ${({ index }) => (index === 0 ? "0" : "16px")};
     margin-right: 16px;
   }
 `;
@@ -46,6 +46,7 @@ const TabPresale: React.FC<TabPresaleProps> = ({
         <ChildTab
           onClick={onItemClick ? () => onItemClick(index) : undefined}
           isActive={activeIndex === index ? true : false}
+          index={index}
           key={`child-${index}`}
         >
           {item}
