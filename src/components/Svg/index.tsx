@@ -28,6 +28,7 @@ export { default as CommunityIcon } from "./Icons/Community";
 export { default as CopyIcon } from "./Icons/Copy";
 export { default as DetailIcon } from "./Icons/Detail";
 export { default as ErrorIcon } from "./Icons/Error";
+export { default as EditIcon } from "./Icons/Edit";
 export { default as FacebookIcon } from "./Icons/Facebook";
 export { default as FileIcon } from "./Icons/File";
 export { default as FilterIcon } from "./Icons/Filter";
