@@ -39,7 +39,6 @@ const TabPresale: React.FC<TabPresaleProps> = ({
   const validItems = Children.toArray(children).filter((child) =>
     isValidElement(child)
   );
-  console.log(activeIndex, "index");
 
   return (
     <StyledTabPresale>
