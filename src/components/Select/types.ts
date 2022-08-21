@@ -17,4 +17,5 @@ export interface SelectProps extends SpaceProps {
   scale?: Scales;
   isSuccess?: boolean;
   isWarning?: boolean;
+  selected?: string
 }

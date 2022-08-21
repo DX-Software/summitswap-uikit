@@ -81,7 +81,7 @@ const Select = styled.select<{
   padding: 0 16px;
   width: 100%;
   padding-right: 40px;
-  padding-left: ${({ startIcon }) => (startIcon && "44px")};
+  padding-left: ${({ startIcon }) => startIcon && "44px"};
 
   -moz-appearance: none; /* Firefox */
   -webkit-appearance: none; /* Safari and Chrome */
@@ -129,31 +129,37 @@ const getStartIcon = (startIcon: ReactNode) => {
   const isValid = isValidElement(startIcon);
 
   if (isValid) {
-    return (
-      <StartIconWrapper>
-        {startIcon}  
-      </StartIconWrapper>
-    )
+    return <StartIconWrapper>{startIcon}</StartIconWrapper>;
   }
-  return null
-}
+  return null;
+};
 
 function SelectComponent({
   scale,
   isSuccess,
   isWarning,
   options,
+  selected,
   onChange,
   startIcon,
   ...props
 }: Props) {
   return (
-    <SelectWrapper {...props}>
+    <SelectWrapper {...props} onChange={onChange} >
       {startIcon && getStartIcon(startIcon)}
-      <Select scale={scale} isSuccess={isSuccess} isWarning={isWarning} startIcon={startIcon}>
+      <Select
+        scale={scale}
+        isSuccess={isSuccess}
+        isWarning={isWarning}
+        startIcon={startIcon}
+      >
         {options.map((option) => {
           return (
-            <option key={option.value} value={option.value}>
+            <option
+              selected={selected === option.value}
+              key={option.value}
+              value={option.value}
+            >
               {option.label}
             </option>
           );
