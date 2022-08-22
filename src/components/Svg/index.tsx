@@ -26,6 +26,7 @@ export { default as CoinIcon } from "./Icons/Coin";
 export { default as Coin2Icon } from "./Icons/Coin2";
 export { default as CommunityIcon } from "./Icons/Community";
 export { default as CopyIcon } from "./Icons/Copy";
+export { default as CircleFilledIcon } from "./Icons/CircleFilled";
 export { default as DetailIcon } from "./Icons/Detail";
 export { default as ErrorIcon } from "./Icons/Error";
 export { default as EditIcon } from "./Icons/Edit";
