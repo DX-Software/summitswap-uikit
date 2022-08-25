@@ -66,6 +66,7 @@ export { default as Won } from "./Icons/Won";
 export { default as TelegramIcon } from "./Icons/Telegram";
 export { default as Ticket } from "./Icons/Ticket";
 export { default as TicketRound } from "./Icons/TicketRound";
+export { default as TrashIcon } from "./Icons/Trash";
 export { default as TwitterIcon } from "./Icons/Twitter";
 export { default as TopLogoIcon } from "./Icons/TopLogo";
 export { default as SearchIcon } from "./Icons/Search";
