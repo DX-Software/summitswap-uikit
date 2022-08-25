@@ -83,6 +83,9 @@ const Select = styled.select<{
   padding-right: 40px;
   padding-left: ${({ startIcon }) => startIcon && "44px"};
 
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
   -moz-appearance: none; /* Firefox */
   -webkit-appearance: none; /* Safari and Chrome */
   appearance: none;
@@ -145,7 +148,7 @@ function SelectComponent({
   ...props
 }: Props) {
   return (
-    <SelectWrapper {...props} onChange={onChange} >
+    <SelectWrapper {...props} onChange={onChange}>
       {startIcon && getStartIcon(startIcon)}
       <Select
         scale={scale}
