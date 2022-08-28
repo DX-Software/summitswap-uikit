@@ -42,6 +42,7 @@ export { default as HelpIcon } from "./Icons/Help";
 export { default as ImageIcon } from "./Icons/Image";
 export { default as ImageAddIcon } from "./Icons/ImageAdd";
 export { default as InfoIcon } from "./Icons/Info";
+export { default as LaunchpadIcon } from "./Icons/Launchpad";
 export { default as ListViewIcon } from "./Icons/ListView";
 export { default as LockIcon } from "./Icons/Lock";
 export { default as LogoIcon } from "./Icons/Logo";
