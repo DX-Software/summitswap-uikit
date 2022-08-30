@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import Text from "../Text/Text";
-import TabPresale from "./TabPresale";
+import NavTab from "./NavTab";
 
 export default {
-  title: "Components/TabPresale",
-  component: TabPresale,
+  title: "Components/NavTab",
+  component: NavTab,
   argTypes: {},
 };
 
@@ -15,11 +15,11 @@ export const Default: React.FC = () => {
 
   return (
     <Text p="32px">
-      <TabPresale mb="32px" activeIndex={index} onItemClick={handleClick}>
+      <NavTab mb="32px" activeIndex={index} onItemClick={handleClick}>
         <Text>Label 1</Text>
         <Text>Label 2</Text>
         <Text>Label 3</Text>
-      </TabPresale>
+      </NavTab>
     </Text>
   );
 };

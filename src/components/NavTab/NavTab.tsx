@@ -3,9 +3,9 @@ import React, { Children, isValidElement } from "react";
 import styled from "styled-components";
 import { space } from "styled-system";
 import Box from "../Box/Box";
-import { TabPresaleProps } from "./types";
+import { NavTabProps } from "./types";
 
-const StyledTabPresale = styled(Box)`
+const StyledNavTab = styled(Box)`
   align-items: center;
   display: flex;
   list-style-type: none;
@@ -31,7 +31,7 @@ const ChildTab = styled.li<{ isActive: boolean; index: number }>`
   }
 `;
 
-const TabPresale: React.FC<TabPresaleProps> = ({
+const NavTab: React.FC<NavTabProps> = ({
   activeIndex = 0,
   onItemClick,
   children,
@@ -41,7 +41,7 @@ const TabPresale: React.FC<TabPresaleProps> = ({
   );
 
   return (
-    <StyledTabPresale>
+    <StyledNavTab>
       {validItems.map((item, index) => (
         <ChildTab
           onClick={onItemClick ? () => onItemClick(index) : undefined}
@@ -52,8 +52,8 @@ const TabPresale: React.FC<TabPresaleProps> = ({
           {item}
         </ChildTab>
       ))}
-    </StyledTabPresale>
+    </StyledNavTab>
   );
 };
 
-export default TabPresale;
+export default NavTab;

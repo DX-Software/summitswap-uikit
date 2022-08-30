@@ -27,7 +27,7 @@ export * from "./components/Tag";
 export * from "./components/Text";
 export * from "./components/TextArea";
 export * from "./components/Toggle";
-export * from "./components/TabPresale"
+export * from "./components/NavTab"
 // Hooks
 export * from "./hooks";
 // Theme
