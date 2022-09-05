@@ -1,4 +1,5 @@
 export { default as CollectiblesIcon } from "./Collectibles";
+export { default as CoinBagIcon } from "./CoinBag";
 export { default as FacebookIcon } from "./Facebook";
 export { default as FarmIcon } from "./Farm";
 export { default as DiscordIcon } from "./Discord";
@@ -12,6 +13,7 @@ export { default as InfoIcon } from "./Info";
 export { default as InstagramIcon } from "./Instagram";
 export { default as KickStarterIcon } from "./KickStarter";
 export { default as LanguageIcon } from "./Language";
+export { default as LaunchpadIcon } from "./Launchpad";
 export { default as LogoIcon } from "./Logo";
 export { default as LotteryIcon } from "./Lottery";
 export { default as MoonIcon } from "./Moon";
