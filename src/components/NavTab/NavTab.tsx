@@ -9,6 +9,15 @@ const StyledNavTab = styled(Box)`
   align-items: center;
   display: flex;
   list-style-type: none;
+  width: 100%;
+  overflow: auto;
+
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
   ${space};
 `;
 
