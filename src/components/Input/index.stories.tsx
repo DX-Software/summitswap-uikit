@@ -28,6 +28,8 @@ export const Default: React.FC = () => {
         <>
           <Heading mb="16px">{key}</Heading>
           <Row>
+            <Input type="datetime-local" scale={scales[key]} />
+            <Input type="search" scale={scales[key]} value="Search" />
             <Input type="text" scale={scales[key]} value="Value" />
             <Input type="text" scale={scales[key]} placeholder="Placeholder..." />
             <Input type="text" scale={scales[key]} value="Disabled" disabled />

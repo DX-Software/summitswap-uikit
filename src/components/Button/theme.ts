@@ -29,8 +29,8 @@ export const styleVariants = {
     color: "white",
   },
   [variants.SECONDARY]: {
-    background: "menuItemActiveBackground",
-    color: "white"
+    background: "none",
+    color: "primary",
   },
   [variants.TERTIARY]: {
     backgroundColor: "tertiary",

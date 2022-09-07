@@ -8,6 +8,8 @@ export const baseColors = {
   secondary: "#7645D9",
   success: "#31D0AA",
   warning: "#FFB237",
+  default: "#FFFFFF",
+  info: "#3FAFD2",
 
   sidebarBackground: "#000f18",
   sidebarColor: "white",

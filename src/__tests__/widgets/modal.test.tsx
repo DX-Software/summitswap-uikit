@@ -21,7 +21,7 @@ it("renders correctly", () => {
             class="sc-dlfnbm sc-hKgILt sc-pFZIQ isWJdv dRpfYw ePMCIJ"
           >
             <h2
-              class="sc-bdfBwQ sc-gsTCUz dKBMIJ euWWbB"
+              class="sc-bdfBwQ sc-gsTCUz dKBMIJ CgwZY"
               color="sidebarColor"
               font-size="26px"
               font-weight="800"
@@ -31,7 +31,7 @@ it("renders correctly", () => {
           </div>
           <button
             aria-label="Close the dialog"
-            class="sc-jSgupP eJngmZ sc-gKsewC kpTpvg"
+            class="sc-jSgupP bbOpMH sc-gKsewC kpTpvg"
             scale="md"
             style="justify-content: flex-end;"
           >
