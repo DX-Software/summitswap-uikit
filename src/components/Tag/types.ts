@@ -11,6 +11,7 @@ export const variants = {
   BINANCE: "binance",
   FAILURE: "failure",
   INFO: "info",
+  INVERSE: "dropdownBackground",
 } as const;
 
 export type Variants = typeof variants[keyof typeof variants];
