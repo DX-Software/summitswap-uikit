@@ -77,6 +77,7 @@ export { default as ShareIcon } from "./Icons/Share";
 export { default as ShopIcon } from "./Icons/Shop";
 export { default as SocialGroupIcon } from "./Icons/SocialGroup";
 export { default as SortIcon } from "./Icons/Sort";
+export { default as SpreadsheetIcon } from "./Icons/Spreadsheet";
 export { default as SwapVertIcon } from "./Icons/SwapVert";
 export { default as SyncAltIcon } from "./Icons/SyncAlt";
 export { default as UnLockIcon } from "./Icons/Unlock";
