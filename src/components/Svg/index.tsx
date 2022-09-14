@@ -33,6 +33,7 @@ export { default as DiscordIcon } from "./Icons/Discord";
 export { default as DownloadIcon } from "./Icons/Download";
 export { default as EmailIcon } from "./Icons/Email";
 export { default as ErrorIcon } from "./Icons/Error";
+export { default as EtherIcon } from "./Icons/Ether";
 export { default as ExchangeIcon } from "./Icons/Exchange";
 export { default as EditIcon } from "./Icons/Edit";
 export { default as FacebookIcon } from "./Icons/Facebook";
