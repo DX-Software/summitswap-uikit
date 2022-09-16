@@ -32,11 +32,13 @@ export type Gradients = {
 };
 
 export type Colors = {
+  default: string;
   sidebarBackground: string;
   sidebarColor: string;
   sidebarActiveColor: string;
   menuItemBackground: string;
   menuItemActiveBackground: string;
+  info: string;
   inputColor: string;
   dropdownBackground: string;
   linkColor: string;
