@@ -4,30 +4,30 @@ import { tags, sizes, HeadingProps } from "./types";
 
 const style = {
   [sizes.MD]: {
-    fontSize: "20px",
-    fontSizeLg: "20px",
+    fontSizeWeb: "20px",
+    fontSizeMobile: "18px",
   },
   [sizes.LG]: {
-    fontSize: "24px",
-    fontSizeLg: "24px",
+    fontSizeWeb: "24px",
+    fontSizeMobile: "20px",
   },
   [sizes.XL]: {
-    fontSize: "32px",
-    fontSizeLg: "40px",
+    fontSizeWeb: "40px",
+    fontSizeMobile: "32px",
   },
   [sizes.XXL]: {
-    fontSize: "48px",
-    fontSizeLg: "64px",
+    fontSizeWeb: "64px",
+    fontSizeMobile: "48px",
   },
 };
 
 const Heading = styled(Text).attrs({ bold: true })<HeadingProps>`
-  font-size: ${({ size }) => style[size || sizes.MD].fontSize};
+  font-size: ${({ size }) => style[size || sizes.MD].fontSizeMobile};
   font-weight: 700;
   line-height: 1.1;
 
   ${({ theme }) => theme.mediaQueries.lg} {
-    font-size: ${({ size }) => style[size || sizes.MD].fontSizeLg};
+    font-size: ${({ size }) => style[size || sizes.MD].fontSizeWeb};
   }
 `;
 
