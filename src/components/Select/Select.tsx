@@ -11,6 +11,7 @@ interface StyledSelectProps extends SelectProps {
 interface Props extends BoxProps, SelectProps {
   options: Option[];
   startIcon?: ReactNode;
+  onValueChanged: (value: string) => void;
 }
 
 /**
@@ -145,6 +146,7 @@ function SelectComponent({
   selected,
   onChange,
   startIcon,
+  onValueChanged,
   ...props
 }: Props) {
   return (
@@ -155,7 +157,7 @@ function SelectComponent({
         isSuccess={isSuccess}
         isWarning={isWarning}
         startIcon={startIcon}
-      >
+        onChange={(e) => onValueChanged(e.target.value)}>
         {options.map((option) => {
           return (
             <option

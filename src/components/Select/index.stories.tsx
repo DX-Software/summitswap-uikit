@@ -43,17 +43,30 @@ export const Default: React.FC = () => {
         <>
           <Heading mb="16px">{key}</Heading>
           <Row style={{ columnGap: "8px" }}>
-            <Select scale={scales[key]} options={options} style={{ flex: 1 }} />
             <Select
               scale={scales[key]}
               options={options}
               style={{ flex: 1 }}
+              onValueChanged={(value) => console.log(value)}
+            />
+            <Select
+              scale={scales[key]}
+              options={options}
+              style={{ flex: 1 }}
+              onValueChanged={(value) => console.log(value)}
+            />
+            <Select
+              scale={scales[key]}
+              options={options}
+              style={{ flex: 1 }}
+              onValueChanged={(value) => console.log(value)}
               isSuccess
             />
             <Select
               scale={scales[key]}
               options={options}
               style={{ flex: 1 }}
+              onValueChanged={(value) => console.log(value)}
               isWarning
             />
             <Select
@@ -61,6 +74,7 @@ export const Default: React.FC = () => {
               scale={scales[key]}
               options={options}
               style={{ flex: 1 }}
+              onValueChanged={(value) => console.log(value)}
             />
           </Row>
         </>
