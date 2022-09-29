@@ -21,7 +21,7 @@ it("renders ConnectModal correctly", () => {
             class="sc-eCssSg sc-jSgupP sc-jrAGrp jnvqfy cjuMmG eYDuGd"
           >
             <h2
-              class="sc-bdfBwQ sc-hKgILt dKBMIJ gOTaxR"
+              class="sc-bdfBwQ sc-hKgILt dKBMIJ jnuoiC"
               color="sidebarColor"
               font-size="26px"
               font-weight="800"
@@ -222,7 +222,7 @@ it("renders ConnectModal correctly", () => {
               xmlns="http://www.w3.org/2000/svg"
             >
               <g
-                clipPath="url(#clip0)"
+                clip-path="url(#clip0)"
               >
                 <path
                   d="M48.0048 96.0097C74.5172 96.0097 96.0097 74.5172 96.0097 48.0048C96.0097 21.4925 74.5172 0 48.0048 0C21.4925 0 0 21.4925 0 48.0048C0 74.5172 21.4925 96.0097 48.0048 96.0097Z"
@@ -500,7 +500,7 @@ it("renders AccountModal correctly", () => {
             class="sc-eCssSg sc-jSgupP sc-jrAGrp jnvqfy cjuMmG eYDuGd"
           >
             <h2
-              class="sc-bdfBwQ sc-hKgILt dKBMIJ gOTaxR"
+              class="sc-bdfBwQ sc-hKgILt dKBMIJ jnuoiC"
               color="sidebarColor"
               font-size="26px"
               font-weight="800"
