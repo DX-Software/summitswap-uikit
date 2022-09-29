@@ -90,7 +90,6 @@ export { default as VestingIcon } from "./Icons/Vesting";
 export { default as WalletIcon } from "./Icons/Wallet";
 export { default as WarningIcon } from "./Icons/Warning";
 export { default as WebIcon } from "./Icons/Web";
-export { default as WhitelabelNftIcon } from "./Icons/WhitelabelNft";
 export { default as X2Y2Icon } from "./Icons/X2Y2";
 export { default as Svg } from "./Svg";
 export type { SvgProps } from "./types";
