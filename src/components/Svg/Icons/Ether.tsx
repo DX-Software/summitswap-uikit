@@ -10,7 +10,7 @@ const Icon: React.FC<SvgProps> = (props) => {
 
   return (
     <Svg viewBox="0 0 24 24" {...props}>
-      <g clip-path="url(#clip0_2821_47354)">
+      <g clipPath="url(#clip0_2821_47354)">
         <path
           d="M17.722 12.1687L12.5004 15.4313L7.27539 12.1687L12.5004 3L17.722 12.1687ZM12.5004 16.4789L7.27539 13.2164L12.5004 21L17.7254 13.2164L12.5004 16.4789V16.4789Z"
           fill={theme.colors[color] as string}
