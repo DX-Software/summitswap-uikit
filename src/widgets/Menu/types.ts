@@ -37,6 +37,8 @@ export interface MenuEntry {
   calloutClass?: string;
   initialOpenState?: boolean;
   showConnectButton?: boolean;
+  supportedChainIds?: number[];
+  isHidden?: boolean;
 }
 
 export interface PanelProps {

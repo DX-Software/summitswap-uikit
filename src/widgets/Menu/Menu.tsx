@@ -102,6 +102,7 @@ const Menu: React.FC<NavProps> = ({
 
   // Find the home link if provided
   const homeLink = links.find((link) => link.label === "Home");
+  const menuLinks = links.filter((link) => !link.isHidden);
 
   return (
     <Wrapper>
@@ -124,7 +125,7 @@ const Menu: React.FC<NavProps> = ({
           kodaPriceUsd={kodaPriceUsd}
           kapexPriceUsd={kapexPriceUsd}
           pushNav={setIsPushed}
-          links={links}
+          links={menuLinks}
           showConnectButton={showConnectButton}
         />
       )}
@@ -145,7 +146,7 @@ const Menu: React.FC<NavProps> = ({
           kodaPriceUsd={kodaPriceUsd}
           kapexPriceUsd={kapexPriceUsd}
           pushNav={setIsPushed}
-          links={links}
+          links={menuLinks}
           showConnectButton={showConnectButton}
         />
         <Inner isPushed={isPushed} showMenu={showMenu}>
