@@ -12,7 +12,6 @@ const CashState: React.FC<Props> = ({coinPriceUsd, token}) => {
     return (
         <StyledContainer>
             {token == 'KODA' && <KodaLogoIcon />}
-            {token == 'KAPEX' && <KapexLogoIcon />}
             {coinPriceUsd ? (
                 <Box>{`$${coinPriceUsd.toFixed(8)}`}</Box>
             ) : (
@@ -26,14 +25,6 @@ const KodaLogoIcon = styled.div`
     width: 32px;
     height: 32px;
     background: url(https://raw.githubusercontent.com/Koda-Finance/summitswap-data/main/images/coins/koda.png);
-    background-size: 100% 100%;
-    margin: 6px 0px;
-    margin-right: 4px;
-`
-const KapexLogoIcon = styled.div`
-    width: 32px;
-    height: 32px;
-    background: url(https://raw.githubusercontent.com/Koda-Finance/summitswap-data/main/images/coins/kapex.png);
     background-size: 100% 100%;
     margin: 6px 0px;
     margin-right: 4px;
