@@ -56,7 +56,6 @@ const Menu: React.FC<NavProps> = ({
   currentLang,
   cakePriceUsd,
   kodaPriceUsd,
-  kapexPriceUsd,
   links,
   profile,
   showConnectButton,
@@ -123,7 +122,6 @@ const Menu: React.FC<NavProps> = ({
           currentLang={currentLang}
           cakePriceUsd={cakePriceUsd}
           kodaPriceUsd={kodaPriceUsd}
-          kapexPriceUsd={kapexPriceUsd}
           pushNav={setIsPushed}
           links={menuLinks}
           showConnectButton={showConnectButton}
@@ -144,7 +142,6 @@ const Menu: React.FC<NavProps> = ({
           currentLang={currentLang}
           cakePriceUsd={cakePriceUsd}
           kodaPriceUsd={kodaPriceUsd}
-          kapexPriceUsd={kapexPriceUsd}
           pushNav={setIsPushed}
           links={menuLinks}
           showConnectButton={showConnectButton}

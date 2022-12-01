@@ -40,7 +40,6 @@ it("renders correctly", () => {
         currentLang=""
         cakePriceUsd={0.23158668932877668}
         kodaPriceUsd={0.00091815}
-        kapexPriceUsd={0.0000004759}
         links={menuConfig}
         showConnectButton={true}
       >
@@ -52,30 +51,30 @@ it("renders correctly", () => {
   expect(asFragment()).toMatchInlineSnapshot(`
     <DocumentFragment>
       <div
-        class="sc-euMpXR drEgFG"
+        class="sc-gInsOo hwTNJS"
       >
         <div
           class="sc-dlfnbm sc-hKgILt isWJdv AmOVA"
         >
           <nav
-            class="sc-gInsOo CFBaF"
+            class="sc-bsipQr gmHdll"
           >
             <div
               class="sc-dlfnbm sc-hKgILt lkQHhn gPTDCk"
             >
               <div
-                class="sc-fbNXWD GKOFP"
+                class="sc-fvhGYg dkQWdz"
               >
                 <a
                   href="/"
                 >
                   <div
-                    class="sc-fvhGYg jnalFi"
+                    class="sc-jQbIHB fiNXQN"
                   />
                 </a>
               </div>
               <div
-                class="sc-dlfnbm sc-hKgILt sc-bsipQr isWJdv jszezi hgoeWg"
+                class="sc-dlfnbm sc-hKgILt sc-dFJsGO isWJdv jszezi fTGbCE"
               >
                 <div>
                   <button
@@ -101,16 +100,16 @@ it("renders correctly", () => {
               </div>
             </div>
             <div
-              class="sc-dlfnbm sc-hKgILt sc-GTWni kvYdsH clYVkQ kvomaj"
+              class="sc-dlfnbm sc-hKgILt sc-fbNXWD kvYdsH clYVkQ dHyDul"
             >
               <div
-                class="sc-ctaXAZ ggjdkP"
+                class="sc-eGCarw dvDnjn"
               >
                 <div
-                  class="sc-bTvRPi ivKEpR"
+                  class="sc-hlTvYk dfRiLK"
                 >
                   <div
-                    class="sc-hlTvYk dqszhh"
+                    class="sc-jONnTn izxvei"
                   />
                   <div
                     class="sc-dlfnbm isWJdv"
@@ -118,21 +117,9 @@ it("renders correctly", () => {
                     $0.00091815
                   </div>
                 </div>
-                <div
-                  class="sc-bTvRPi ivKEpR"
-                >
-                  <div
-                    class="sc-eLgOdN imvBzw"
-                  />
-                  <div
-                    class="sc-dlfnbm isWJdv"
-                  >
-                    $0.00000048
-                  </div>
-                </div>
               </div>
               <div
-                class="sc-dFJsGO eWgpRe"
+                class="sc-ctaXAZ fmnFkE"
               >
                 <a
                   href="https://discord.com/invite/FBgEmJmHuc"
@@ -222,7 +209,7 @@ it("renders correctly", () => {
               </div>
             </div>
             <div
-              class="sc-dlfnbm sc-eGCarw iaMnCl brBaqY"
+              class="sc-dlfnbm sc-bXDlPE iaMnCl Wihaa"
             >
               <div
                 class="sc-dwfUOf kmxsdd"
@@ -255,13 +242,13 @@ it("renders correctly", () => {
           </nav>
         </div>
         <div
-          class="sc-fHuLdG bdhUmW"
+          class="sc-euMpXR ukQQR"
         >
           <div
-            class="sc-dacFzL hNgkbH"
+            class="sc-dtwoBo bdSgTI"
           >
             <div
-              class="sc-jUEnpm gAQPQt"
+              class="sc-dacFzL kqTkYS"
             />
             <div
               class="sc-GqfZa dAEBJv"
@@ -332,16 +319,16 @@ it("renders correctly", () => {
                 </div>
               </div>
               <div
-                class="sc-kIeTtH ksurOY"
+                class="sc-bTvRPi jCwSqM"
               >
                 <div
-                  class="sc-hOqqkJ boufHq"
+                  class="sc-kIeTtH kYIMGD"
                 >
                   <div
-                    class="sc-bTvRPi ivKEpR"
+                    class="sc-hlTvYk dfRiLK"
                   >
                     <div
-                      class="sc-hlTvYk dqszhh"
+                      class="sc-jONnTn izxvei"
                     />
                     <div
                       class="sc-dlfnbm isWJdv"
@@ -349,21 +336,9 @@ it("renders correctly", () => {
                       $0.00091815
                     </div>
                   </div>
-                  <div
-                    class="sc-bTvRPi ivKEpR"
-                  >
-                    <div
-                      class="sc-eLgOdN imvBzw"
-                    />
-                    <div
-                      class="sc-dlfnbm isWJdv"
-                    >
-                      $0.00000048
-                    </div>
-                  </div>
                 </div>
                 <div
-                  class="sc-dtwoBo iawYUb"
+                  class="sc-hOqqkJ gcYyIs"
                 >
                   <a
                     href="https://discord.com/invite/FBgEmJmHuc"
@@ -455,7 +430,7 @@ it("renders correctly", () => {
             </div>
           </div>
           <div
-            class="sc-dtTInj fgClSI"
+            class="sc-fHuLdG eDYAAx"
           >
             body
           </div>

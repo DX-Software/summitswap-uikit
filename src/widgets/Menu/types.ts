@@ -46,7 +46,6 @@ export interface PanelProps {
   toggleTheme: (isDark: boolean) => void;
   cakePriceUsd?: number;
   kodaPriceUsd?: number;
-  kapexPriceUsd?: number;
   currentLang?: string;
   langs?: LangType[];
   setLang?: (lang: LangType) => void;

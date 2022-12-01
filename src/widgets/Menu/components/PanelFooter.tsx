@@ -1,15 +1,10 @@
 import React from "react";
 import styled from "styled-components";
-import { CogIcon } from "../../../components/Svg";
-import IconButton from "../../../components/Button/IconButton";
 import { MENU_ENTRY_HEIGHT } from "../config";
+import { DiscordIcon, FacebookIcon, InstagramIcon, TelegramIcon, TwitterIcon } from "../icons";
 import { PanelProps, PushedProps } from "../types";
-import CakePrice from "./CakePrice";
-import ThemeSwitcher from "./ThemeSwitcher";
-import SocialLinks from "./SocialLinks";
-import LangSelector from "./LangSelector";
 import CashState from "./CashState";
-import { FacebookIcon, DiscordIcon, InstagramIcon, TelegramIcon, TwitterIcon } from "../icons";
+import LangSelector from "./LangSelector";
 
 interface Props extends PanelProps, PushedProps { }
 
@@ -54,7 +49,6 @@ const PanelFooter: React.FC<Props> = ({
   isDark,
   cakePriceUsd,
   kodaPriceUsd,
-  kapexPriceUsd,
   currentLang,
   langs,
   setLang,
@@ -77,7 +71,6 @@ const PanelFooter: React.FC<Props> = ({
       </SocialEntry> */}
       <SettingsEntry>
         <CashState coinPriceUsd={kodaPriceUsd} token={"KODA"}/>
-        <CashState coinPriceUsd={kapexPriceUsd} token={"KAPEX"} />
         {/* <ThemeSwitcher isDark={isDark} toggleTheme={toggleTheme} /> */}
         {(currentLang && langs?.length && setLang) ? 
               (<LangSelector currentLang={currentLang} langs={langs} setLang={setLang} />) : null}  
