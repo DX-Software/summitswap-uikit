@@ -37,7 +37,7 @@ export interface MenuEntry {
   calloutClass?: string;
   initialOpenState?: boolean;
   showConnectButton?: boolean;
-  supportedChainIds?: number[];
+  supportedChainId?: number;
   isHidden?: boolean;
 }
 
