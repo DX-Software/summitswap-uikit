@@ -1,5 +1,6 @@
 import styled, { DefaultTheme } from "styled-components";
 import getColor from "../../util/getColor";
+import { styleVariants } from "./theme";
 import { TagProps } from "./types";
 
 interface ThemedProps extends TagProps {
@@ -14,15 +15,16 @@ const getThemeTextColor = ({
   if (variant === "default" && !outline) {
     return theme.colors.dropdownBackground;
   }
-  return outline ? getColor(variant, theme) : "#ffffff";
+  return outline ? getColor(styleVariants[variant], theme) : "#ffffff";
 };
 
 export const StyledTag = styled.div<ThemedProps>`
   align-items: center;
   background-color: ${({ outline, theme, variant = "primary" }) =>
-    outline ? "transparent" : getColor(variant, theme)};
+    outline ? "transparent" : getColor(styleVariants[variant], theme)};
   border: 2px solid
-    ${({ variant = "primary", theme }) => getColor(variant, theme)};
+    ${({ variant = "primary", theme }) =>
+      getColor(styleVariants[variant], theme)};
   border-radius: 16px;
   color: ${getThemeTextColor};
   display: inline-flex;
