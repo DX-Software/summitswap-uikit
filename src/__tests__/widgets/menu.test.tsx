@@ -40,7 +40,6 @@ it("renders correctly", () => {
         currentLang=""
         cakePriceUsd={0.23158668932877668}
         kodaPriceUsd={0.00091815}
-        kapexPriceUsd={0.0000004759}
         links={menuConfig}
         showConnectButton={true}
       >
@@ -107,7 +106,7 @@ it("renders correctly", () => {
                 class="sc-eGCarw dvDnjn"
               >
                 <div
-                  class="sc-eLgOdN ddsOuh"
+                  class="sc-hlTvYk dfRiLK"
                 >
                   <div
                     class="sc-jONnTn izxvei"
@@ -116,18 +115,6 @@ it("renders correctly", () => {
                     class="sc-dlfnbm isWJdv"
                   >
                     $0.00091815
-                  </div>
-                </div>
-                <div
-                  class="sc-eLgOdN ddsOuh"
-                >
-                  <div
-                    class="sc-hlTvYk gnfWXr"
-                  />
-                  <div
-                    class="sc-dlfnbm isWJdv"
-                  >
-                    $0.00000048
                   </div>
                 </div>
               </div>
@@ -225,7 +212,7 @@ it("renders correctly", () => {
               class="sc-dlfnbm sc-bXDlPE iaMnCl Wihaa"
             >
               <div
-                class="sc-fWSCIC cZEQkv"
+                class="sc-dwfUOf kmxsdd"
                 role="button"
               >
                 <a
@@ -245,7 +232,7 @@ it("renders correctly", () => {
                     />
                   </svg>
                   <div
-                    class="sc-GqfZa kcXYhR"
+                    class="sc-fWSCIC juhpvJ"
                   >
                     Trade
                   </div>
@@ -264,7 +251,7 @@ it("renders correctly", () => {
               class="sc-dacFzL kqTkYS"
             />
             <div
-              class="sc-fbkhIv hDamI"
+              class="sc-GqfZa dAEBJv"
             >
               <div
                 class="sc-dlfnbm sc-hKgILt CdpQa hhgqpc"
@@ -301,10 +288,10 @@ it("renders correctly", () => {
               style="position: relative; height: 100%;"
             >
               <div
-                class="sc-jHVexB kEoVjf"
+                class="sc-aemoO cJUlSl"
               >
                 <div
-                  class="sc-fWSCIC gLSflG"
+                  class="sc-dwfUOf bmLaQg"
                   role="button"
                 >
                   <a
@@ -324,7 +311,7 @@ it("renders correctly", () => {
                       />
                     </svg>
                     <div
-                      class="sc-GqfZa kcXYhR"
+                      class="sc-fWSCIC juhpvJ"
                     >
                       Trade
                     </div>
@@ -338,7 +325,7 @@ it("renders correctly", () => {
                   class="sc-kIeTtH kYIMGD"
                 >
                   <div
-                    class="sc-eLgOdN ddsOuh"
+                    class="sc-hlTvYk dfRiLK"
                   >
                     <div
                       class="sc-jONnTn izxvei"
@@ -347,18 +334,6 @@ it("renders correctly", () => {
                       class="sc-dlfnbm isWJdv"
                     >
                       $0.00091815
-                    </div>
-                  </div>
-                  <div
-                    class="sc-eLgOdN ddsOuh"
-                  >
-                    <div
-                      class="sc-hlTvYk gnfWXr"
-                    />
-                    <div
-                      class="sc-dlfnbm isWJdv"
-                    >
-                      $0.00000048
                     </div>
                   </div>
                 </div>

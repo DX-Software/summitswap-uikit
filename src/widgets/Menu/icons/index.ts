@@ -34,3 +34,4 @@ export { default as OnboardingIcon } from "./Onboarding";
 export { default as StakingIcon } from "./Staking";
 export { default as CreateTokenIcon } from "./CreateToken";
 export { default as CreatePresaleIcon } from "./CreatePresale";
+export { default as WhitelabelNftIcon } from "./WhitelabelNft";

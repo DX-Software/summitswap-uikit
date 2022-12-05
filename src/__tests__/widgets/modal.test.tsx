@@ -21,7 +21,7 @@ it("renders correctly", () => {
             class="sc-dlfnbm sc-hKgILt sc-pFZIQ isWJdv dRpfYw ePMCIJ"
           >
             <h2
-              class="sc-bdfBwQ sc-gsTCUz dKBMIJ CgwZY"
+              class="sc-bdfBwQ sc-gsTCUz dKBMIJ bxSekD"
               color="sidebarColor"
               font-size="26px"
               font-weight="800"

@@ -21,7 +21,7 @@ it("renders ConnectModal correctly", () => {
             class="sc-eCssSg sc-jSgupP sc-jrAGrp jnvqfy cjuMmG eYDuGd"
           >
             <h2
-              class="sc-bdfBwQ sc-hKgILt dKBMIJ gOTaxR"
+              class="sc-bdfBwQ sc-hKgILt dKBMIJ jnuoiC"
               color="sidebarColor"
               font-size="26px"
               font-weight="800"
@@ -500,7 +500,7 @@ it("renders AccountModal correctly", () => {
             class="sc-eCssSg sc-jSgupP sc-jrAGrp jnvqfy cjuMmG eYDuGd"
           >
             <h2
-              class="sc-bdfBwQ sc-hKgILt dKBMIJ gOTaxR"
+              class="sc-bdfBwQ sc-hKgILt dKBMIJ jnuoiC"
               color="sidebarColor"
               font-size="26px"
               font-weight="800"
