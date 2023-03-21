@@ -88,7 +88,7 @@ const Topbar: React.FC<Props> = ({
           alignItems="center"
         >
           <SettingsEntry>
-            <CashState coinPriceUsd={kodaPriceUsd} token={"KODA"}/>
+            {/* <CashState coinPriceUsd={kodaPriceUsd} token={"KODA"}/> */}
             {currentLang && langs?.length && setLang ? (
               <LangSelector
                 currentLang={currentLang}
@@ -97,13 +97,13 @@ const Topbar: React.FC<Props> = ({
               />
             ) : null}
           </SettingsEntry>
-          <SocialEntry>
+          {/* <SocialEntry>
             <a href="https://discord.com/invite/FBgEmJmHuc"><DiscordIcon /></a>
             <a href="https://t.me/kodakingofdogaltschat"><TelegramIcon /></a>
             <a href="https://www.facebook.com/KodaCryptocurrency"><FacebookIcon /></a>
             <a href="https://twitter.com/CoinKoda"><TwitterIcon /></a>
             <a href="https://www.instagram.com/kodacryptocurrency"><InstagramIcon /></a>
-          </SocialEntry>
+          </SocialEntry> */}
         </SettingSocial>
         <EntryScroll minWidth="85%" padding="20px 0px">
           {links.map((entry: any) => {

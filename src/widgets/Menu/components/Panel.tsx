@@ -80,7 +80,7 @@ const Panel: React.FC<Props> = (props) => {
       />
       <div style={{ position: "relative", height: "100%" }}>
         <PanelBody {...props} />
-        <PanelFooter {...props} />
+        {/* <PanelFooter {...props} /> */}
       </div>
       {/* <Omni /> */}
     </StyledPanel>
