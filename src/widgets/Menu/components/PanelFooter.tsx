@@ -23,7 +23,7 @@ const SettingsEntry = styled.div`
   align-items: center;
   justify-content: space-between;
   height: ${MENU_ENTRY_HEIGHT}px;
-  margin-bottom: calc(${MENU_ENTRY_HEIGHT}px + 5px)
+  margin-bottom: calc(${MENU_ENTRY_HEIGHT}px + 5px);
 `;
 
 const SocialEntry = styled.div`
